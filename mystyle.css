@@ -3,9 +3,9 @@ body {
     /* Typography Declarations */
     color: #222222;
     font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    padding: 0;
-    margin: 0;
+    padding: 0; /*this removes default white margins in browser"*/
+    margin: 0; /*this removes default white margins in browser"*/
+    font-family: 'Ubuntu', sans-serif
 }
 
 .content-footer,
@@ -17,7 +17,9 @@ body {
 .masthead {
     padding: 6em 0;
     background-image: url('https://download.unsplash.com/photo-1428279148693-1cf2163ed67d');
+    /*background-image: url('../SF.jpg');*/
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border-top: solid 1em #334159;
 }
@@ -26,19 +28,18 @@ body {
     /* Layout Declarations */
     margin-bottom: 0.1em;
     /* Typography Declarations */
-    font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 2em;
+    font-weight: 300;
 }
 
 .masthead-heading {
     /* Layout Declarations */
-    margin-top: -0.2em;
+    margin-top: -0.1em;
     /* Typography Declarations */
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: bold;
     font-size: 6em;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 .introduction-section,
@@ -63,7 +64,6 @@ body {
 }
 
 .questions-section > h2 {
-    font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
     font-weight: bold;
     /* Layout */
@@ -76,12 +76,16 @@ section > h1 {
 }
 
 h2 {
-  color: #8D4F3D;
+  color: #8D4F3D;s
 }
 
+ul {
+    padding-left: 0;
+}
 
 .content-footer {
-    background-color: grey;
+    /*background-color: grey;*/
     margin: 0;
     padding: 0;
+    padding-top: 3em;
 }
